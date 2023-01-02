@@ -13,6 +13,7 @@ class Owner(db.Model):
     def __repr__(self):
         return f'<Pet Owner {self.name}>'
 
+
 class Pet(db.Model):
     __tablename__ = 'pets'
     
